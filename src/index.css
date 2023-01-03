@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* color primario: #2b4f6b */
+/* color secundario: #1e71b8 */
+/* color secundario2: #0b4160 */
+
+.banner-home{
+  background-image: url(./assets/foto-home.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 600px;
+}
+
+/* .title-banner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.fondo-celeste{
+  background: #F8F9FF;
+}
+
+.fondo-soluciones{
+  background: #FAFAFA;
+}
+
+.line-height{
+  line-height: 54px;
+}
+
+/* .flex-padre:nth-child(1) .flex-custom , .flex-padre:nth-child(3) .flex-custom {
+  flex-direction: row;
+}
+
+.flex-padre:nth-child(2) .flex-custom , .flex-padre:nth-child(4) .flex-custom {
+  flex-direction: row-reverse;
+}
+
+@media (max-width:600px) {
+  .flex-padre:nth-child(1) .flex-custom , .flex-padre:nth-child(3) .flex-custom , .flex-padre:nth-child(2) .flex-custom , .flex-padre:nth-child(4) .flex-custom {
+    flex-direction: column;
+  }
+} */
+
+
+/* .swiper{
+  padding: 20px 0 !important;
+} */

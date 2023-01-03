@@ -93,7 +93,6 @@ const Header = () => {
                     <div className="flex items-center gap-8">
                       {navigation.map((item) => (
                           <Link
-                            onClick={close}
                             key={item.name}
                             to={item.href}
                             spy={true} smooth={true} offset={-100} duration={700}
